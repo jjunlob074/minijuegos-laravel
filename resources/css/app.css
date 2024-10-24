@@ -1,0 +1,691 @@
+
+#app {
+    font-family: 'Permanent Marker', handwriting;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: black !important;
+    /* Degradado negro */
+    color: #fff;
+    /* Color del texto */
+    overflow: hidden;
+    z-index: -1;
+}
+
+.navbar {
+    background-color: #1a1a1a !important;
+    /* Color de fondo oscuro para la barra de navegación */
+    border: 1px solid #fb8500;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+}
+
+.navbar-brand img {
+    width: 80px;
+    height: 45px;
+    border: 2px solid #fb8500;
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px rgba(255, 183, 3, 0.8);
+    animation: spin 5s linear infinite;
+}
+
+@keyframes spin {
+    from {
+        transform: rotateY(0deg);
+    }
+
+    to {
+        transform: rotateY(360deg);
+    }
+}
+
+.navbar-toggler-icon {
+    background-color: #fff;
+    /* Color del icono del botón de navegación */
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: #fff;
+    /* Color del texto del enlace en la barra de navegación */
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: #fb8500 !important;
+    /* Color del texto del enlace en la barra de navegación al pasar el mouse (amarillo neon) */
+}
+
+.navbar-nav .nav-item.dropdown:hover .nav-link {
+    color: #fb8500 !important;
+    /* Color del texto del enlace desplegable al pasar el mouse (amarillo neon) */
+}
+
+.dropdown-menu {
+    background-color: #1a1a1a;
+    /* Color de fondo oscuro para el menú desplegable */
+    border: 1px solid #333;
+    /* Borde del menú desplegable */
+}
+
+.dropdown-item {
+    color: #fff !important;
+    /* Color del texto del elemento del menú desplegable */
+}
+
+.dropdown-item:hover {
+    background-color: #333;
+    /* Color de fondo al pasar el mouse por encima del elemento del menú desplegable */
+}
+
+main {
+    min-height: 1000px;
+}
+
+.seccion {
+    margin-top: 2rem;
+}
+
+.seccion h2 {
+    color: #61dafb;
+    /* Color del encabezado de la sección */
+}
+
+.custom-card {
+    background-color: rgb(255, 183, 3) !important;
+    color: white;
+}
+
+.custom-card .card-header {
+    color: #000;
+    font-size: 32px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.custom-card form {
+    padding: 20px;
+    color: black;
+    font-weight: bold;
+
+}
+
+.custom-card label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.custom-card input,
+.custom-card textarea {
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.custom-card input[type="submit"] {
+    background-color: #fff;
+    color: #8a2be2;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.custom-card input[type="submit"]:hover {
+    background-color: #8a2be2;
+    color: #fff;
+}
+
+/* Footer */
+
+footer {
+    margin-top: 100px;
+    background-color: #FFCA2C;
+    color:#111 ;
+    padding: 50px 20px;
+    z-index: 999;
+}
+
+/* Títulos */
+
+footer h4 {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Texto */
+
+footer p {
+    font-size: 1em;
+    line-height: 1.5;
+    text-align: center;
+}
+
+/* Enlaces */
+
+footer a {
+    color: #222;
+    text-decoration: none;
+}
+
+/* Enlaces hover */
+
+footer a:hover {
+    color: #fff;
+}
+footer .card {
+  margin:10px auto;
+}
+
+.dropdown-menu {
+    background-color: #1a1a1a !important;
+    border: 2px solid white !important;
+}
+
+.dropdown-item:hover {
+    background-color: #1a1a1a !important;
+    color: #fb8500 !important;
+}
+
+#particles-js {
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+}
+
+#canvas-container {
+    width: 100vh;
+    height: 100vh;
+    /* 100% del alto de la ventana */
+}
+.accordion {
+    margin: 0 20px;
+}
+.accordion-body {
+   background:#FFEF9F;
+}
+.accordion h2 button{
+    font-size: 24px;
+    color:#fb8500;
+    font-weight: bold;
+    border: 1px solid #fb8500;
+}
+.accordion-button:not(.collapsed) {
+    background-color:#FFCA2C !important;
+}
+.accordion-button:focus {
+    box-shadow: 0 0 0 0.25rem #fb8500 !important;
+}
+.footer-info {
+    text-align: center;
+    margin: 20px auto;
+    font-weight: bold;
+    font-style:italic;
+}
+.carousel {
+    margin: 100px auto;
+}
+.carousel img {
+border:3px solid #fb8500;
+border-radius: 10px;
+margin: auto;
+ max-width: 80%;
+ max-height: 600px;
+ 
+}
+.card {
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s, border 0.3s;
+    border:2px solid #fb8500;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+.card-title {
+    font-weight: bold;
+    font-size: 24px;
+    font-style: italic;
+}
+.card-body {
+    background-color: #ffef9f;
+}
+
+.card:hover {
+    box-shadow: 2px 5px 10px rgba(255, 183, 3) !important;
+    transform: scale(1.02);
+    border: 6px solid #fb8500 !important;
+}
+.card img {
+    width: 100%;
+    height: 200px;
+}
+#dataweb {
+        text-align: center;
+        margin: 100px auto;
+        color: #fb8500;
+        font-style: italic;
+        font-size: 24px;
+        font-weight: bold;
+        animation: glow 2s infinite alternate;
+    }
+
+    #dataweb h1 {
+        font-family: 'Permanent Marker', cursive;
+        text-align: center;
+        font-size: 2em;
+        text-shadow: 2px 2px 4px #888888;
+        color: #fb8500;
+        margin-top: 50px;
+        display: inline-block;
+      }
+      @keyframes onda {
+        0%, 100% {
+          transform: translateY(0);
+        }
+        50% {
+          transform: translateY(-10px);
+        }
+      }
+    
+      #dataweb h1 span {
+        display: inline-block;
+        transform-origin: center bottom;
+        animation: onda 2s infinite alternate;
+        animation-delay: calc(0.1s * var(--i));
+      }
+
+    #dataweb p {
+        font-size: 1.5em;
+        color: #fb8500;
+        animation: fadeIn 2s;
+        margin:20px;
+    }
+
+    @keyframes glow {
+        0% {
+            text-shadow: 0 0 10px #fb8500, 0 0 20px #fb8500;
+        }
+        100% {
+            text-shadow: 0 0 50px #fb8500, 0 0 80px #fb8500;
+        }
+    }
+
+    @keyframes fadeIn {
+        from {
+            opacity: 0;
+        }
+        to {
+            opacity: 1;
+        }
+    }
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+#text-container {
+color: white;
+position: absolute;
+left: 50%;
+bottom: 50px;
+transform: translateX(-50%);
+}
+#video {
+display:flex;
+justify-content: center;
+align-items: center;
+margin: 200px auto;
+z-index: 2;
+}
+#video .card {
+    width: 60%;
+}
+.form {
+    margin-top: 200px;
+}
+.form-check {
+    display:flex;
+    gap: 5px;
+}
+#sprite {
+    margin: 50px auto;
+    background: #000;
+    image-rendering: pixelated;
+    /* Pixel art */
+}
+
+/* Bernard Bernoulli: Animación del personaje */
+#bern {
+    /* Tamaño de la viñeta individual */
+    width: 112px;
+    height: 156px;
+
+    /* Cómo hay establecido un tamaño, centramos */
+    margin: auto;
+
+    /* Cargamos el sprite (repeat-x se puede omitir, por defecto) */
+    background: url("https://cdn.rawgit.com/ManzDev/cursos-assets/gh-pages/css3/bernard-sprite.png") repeat-x;
+
+    /* Aplicamos animación "walk" (0.8seg, 6 frames, repetimos) */
+    animation: walk .8s steps(6) infinite;
+
+    /* Posicionamos el personaje sobre el camino de madera */
+    position: relative;
+    bottom: 34px;
+}
+
+/* Animación de personaje caminando: Simplemente mueve el sprite sheet hacia la izquierda, realizando el movimiento. */
+@keyframes walk {
+
+    /* Partimos de la primera viñeta del sprite sheet */
+    from {
+        background-position: 0
+    }
+
+    /* Tamaño total de ancho del sprite. 
+Es negativo para que no "camine" hacia atrás */
+    to {
+        background-position: -672px
+    }
+}
+
+/* Animación del cielo. Efecto "Parallax", más lento que el mar. */
+#sky {
+    background: url("https://cdn.rawgit.com/ManzDev/cursos-assets/gh-pages/css3/monkey-sky.png") repeat-x;
+    animation: movebg 9s linear infinite;
+}
+
+/* Animación del mar. */
+#sea {
+    background: url("https://cdn.rawgit.com/ManzDev/cursos-assets/gh-pages/css3/monkey-sea.png") repeat-x;
+    animation: movebg 6s linear infinite;
+    /* Posicionamos el mar, para que no solape al cielo */
+    position: relative;
+    top: 145px;
+    /* Pequeño degradado interior para suavizar el mar. 
+Puede consumir muchos recursos */
+    box-shadow: 10px 10px 45px rgb(0, 0, 0, 0.85) inset;
+}
+
+/* Animación para mover cielo y mar */
+@keyframes movebg {
+    0% {
+        background-position: 550px
+    }
+
+    100% {
+        background-position: 0
+    }
+}
+
+/* OPCIONAL: Guybrush */
+#gb {
+    width: 104px;
+    height: 150px;
+    background: url("https://cdn.rawgit.com/ManzDev/cursos-assets/gh-pages/css3/monkey-guybrush.png") no-repeat;
+    animation: gbwalk 1s steps(6) infinite;
+    margin: auto;
+    position: relative;
+    top: 34px;
+    /* Ojo, muy costoso en rendimiento */
+    /* filter: drop-shadow(5px 5px 5px #000); */
+}
+
+@keyframes gbwalk {
+    0% {
+        background-position: 0
+    }
+
+    100% {
+        background-position: -624px
+    }
+}
+  #game-container {
+    margin: 20px auto;
+    width: 800px;
+    height: 800px;
+    border-radius: 50%; /* Hace que el contenedor sea circular */
+    background-color: black; /* Color de fondo del contenedor */
+    border: 2px solid white;
+    outline: 10px solid #222;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .button {
+    border-radius: 300px 0 50px 0;
+    width: 300px;
+    height: 300px; /* Hace que los botones sean circulares */
+    margin: 40px;
+    cursor: pointer;
+    border: 3px solid transparent;
+    transition: border 0.2s;
+
+  }
+
+  .button:hover {
+    box-shadow: inset 5px 5px 150px 75px #fb8500; /* Agrega una sombra interna blanca para simular el efecto de iluminación */
+  }
+  
+  #start-button {
+      position: absolute; 
+      top:500px;
+      border-radius: 50%;
+      width: 70px;
+      height: 70px;
+      border:2px solid rgb(0, 0, 0);
+      background-color: red;
+      color:white;
+      font-weight: bold;
+  }
+  #start-button:hover {
+    border:2px solid yellow;
+    cursor:pointer;
+  }
+
+  #red {
+    background-color: red;
+    
+  }
+
+  #green {
+    transform: rotate(90deg);
+    background-color: green;
+  }
+  #yellow {
+    transform: rotate(180deg);
+    background-color: yellow;
+  }
+  #blue {
+    transform: rotate(270deg);
+    background-color: blue;
+  }
+
+  #circulo {
+    position:absolute;
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    border-radius: 50%;
+    display: none;
+    z-index: 100;
+  }
+  #counter {
+	position: absolute;
+	top: 440px;
+	background-color: #222;
+	color: crimson;
+	font-size: 1.8rem;
+  font-weight: bold;
+	text-align: center;
+  text-shadow: 2px 2px 3px crimson;
+	height: 3rem;
+	width: 5rem;
+	padding: 0.2rem;
+	border-radius: 5pt;
+  border: 1px solid gold;
+}
+.simoncito {
+    margin-top: 100px !important;
+}
+   /* Estilos para el Modal de Cookies */
+   .modal {
+    display: none;
+    position: fixed;
+    z-index: 999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.7);
+}
+
+.modal-content {
+    background-color: #FFEF9F;
+    margin: 15% auto;
+    padding: 20px;
+    border: 5px solid #FB8500;
+    width: 80%;
+    color:black;
+}
+
+.close {
+    width:50px;
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+#modalbutton {
+    padding:10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #FFF;
+    background-color:#111;
+    border-radius:10px;
+    transition: .3s;
+}
+#modalbutton:hover {
+    background-color:#222;
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.4); /* Sombreado negro al hacer hover */
+}
+
+   /* Agregar estilos en línea para la tabla */
+   table {
+    width: 60%;
+    text-align: center;
+    margin: auto;
+    font-size: 20px;
+    background-color: #FF8C00; /* Color anaranjado */
+    border-collapse: collapse;
+    margin-top: 100px; /* Ajustar según sea necesario */
+}
+
+th, td {
+    color:#000;
+    padding: 10px;
+
+}
+
+th {
+    background-color: #FF8C00; /* Color de fondo anaranjado oscuro para las celdas de encabezado */
+    color: #000; /* Texto blanco para las celdas de encabezado */
+}
+
+td {
+    background-color: #FFEF9F; /* Color de fondo amarillo para las celdas de datos */
+}
+#magic-slider {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top:50px;
+}
+.swiper {
+    margin:100px auto;
+    width: 480px;
+    height: 480px;
+}
+
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    border: 5px solid #FB8500;
+  }
+
+  .mySwiper2{
+    width: 300px;
+    height: 400px;
+  }
+
+  .mySwiper2 .swiper-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 18px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #fff;
+  }
+
+  .mySwiper2 .swiper-slide:nth-child(1n) {
+    background-color: rgb(206, 17, 17);
+  }
+
+  .mySwiper2 .swiper-slide:nth-child(2n) {
+    background-color: rgb(0, 140, 255);
+  }
+
+  .mySwiper2 .swiper-slide:nth-child(3n) {
+    background-color: rgb(10, 184, 111);
+  }
+
+  .mySwiper2 .swiper-slide:nth-child(4n) {
+    background-color: rgb(211, 122, 7);
+  }
+  
+  #message {
+    padding: 20px;
+    border-radius: 60px 15px;
+    background-color: #FFCA2C;
+    color: #111;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 24px;
+    margin: 20px;
+    box-shadow: 3px 3px 5px #FB8500;
+    animation: blink 5s infinite;
+  }
+  @keyframes blink {
+    0% {
+      opacity: 0.6;
+      transform:scale(1);
+    }
+    50% {
+      opacity: 1;
+      transform:scale(1.1);
+    }
+    100% {
+      opacity: 0.6;
+      transform:scale(1);
+    }
+}

@@ -1,0 +1,401 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 1763,
+      "max": [
+        89.84574890136719,
+        32.1151237487793,
+        26.1374568939209
+      ],
+      "min": [
+        -84.53215026855469,
+        -39.64842987060547,
+        0.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 21156,
+      "componentType": 5126,
+      "count": 1763,
+      "max": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 1763,
+      "max": [
+        0.9446378946304321,
+        0.9762289524078369
+      ],
+      "min": [
+        0.05565284565091133,
+        0.11748266220092773
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 5865,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 42312,
+      "componentType": 5126,
+      "count": 3184,
+      "max": [
+        196.97067260742188,
+        167.07254028320313,
+        246.5259246826172
+      ],
+      "min": [
+        -30.06769371032715,
+        -12.093239784240723,
+        -2.1761879920959473
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 80520,
+      "componentType": 5126,
+      "count": 3184,
+      "max": [
+        1.0,
+        1.0,
+        0.9987127184867859
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -0.9982733726501465
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 14104,
+      "componentType": 5126,
+      "count": 3184,
+      "max": [
+        84.52484130859375,
+        128.65550231933594
+      ],
+      "min": [
+        -42.3699951171875,
+        -167.0066375732422
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 23460,
+      "componentType": 5125,
+      "count": 12990,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "Mora (https://sketchfab.com/MoraAzul)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/joystick-nes-08e8cca4cb0f42bdb3cb406af10f8505",
+      "title": "Joystick Nes"
+    },
+    "generator": "Sketchfab-15.37.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 75420,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 39576,
+      "byteOffset": 75420,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 118728,
+      "byteOffset": 114996,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 233724,
+      "uri": "scene.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "textures/MAT_Control_baseColor.png"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "name": "MAT_Control",
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.5165730028891516
+      }
+    },
+    {
+      "doubleSided": true,
+      "name": "MAT_Cable",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.0013699005452204192,
+          0.0013699005452204192,
+          0.0013699005452204192,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.3154295327376236
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "MSH_Control_MAT_Control_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "MSH_Conector_MAT_Cable_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 5,
+            "POSITION": 4,
+            "TEXCOORD_0": 6
+          },
+          "indices": 7,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0050188712775705024,
+        0.9999874234199524,
+        0.0,
+        0.0,
+        -0.9999874234199524,
+        0.0050188712775705024,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2
+      ],
+      "matrix": [
+        0.02539999969303608,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -0.02539999969303608,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -0.02539999969303608,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "6551c6be9f304a0cb09911282d6b092f.fbx"
+    },
+    {
+      "children": [
+        3,
+        6
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        4
+      ],
+      "matrix": [
+        0.9834688362834365,
+        0.1810728400568828,
+        -0.0012940838603521104,
+        0.0,
+        -0.12712060754307153,
+        0.6954899151570129,
+        0.7072016183895307,
+        0.0,
+        0.12895502780885848,
+        -0.6953462479287751,
+        0.7070107469439137,
+        0.0,
+        30.041099548339844,
+        -6.3626322746276855,
+        155.73641967773438,
+        1.0
+      ],
+      "name": "MSH_Control"
+    },
+    {
+      "children": [
+        5
+      ],
+      "matrix": [
+        1.0290254354476929,
+        0.0,
+        -0.0,
+        0.0,
+        0.0,
+        1.0290248394012451,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0290248394012451,
+        0.0,
+        -2.733914375305176,
+        3.875974178314209,
+        -13.448052406311035,
+        1.0
+      ],
+      "name": "Object_4"
+    },
+    {
+      "mesh": 0,
+      "name": "MSH_Control_MAT_Control_0"
+    },
+    {
+      "children": [
+        7
+      ],
+      "matrix": [
+        0.9999999999999996,
+        2.793967901482119e-08,
+        1.232595164407831e-32,
+        0.0,
+        -2.793967901482119e-08,
+        0.9999999999999996,
+        7.450580596923826e-09,
+        0.0,
+        2.0816683035210655e-16,
+        -7.450580596923822e-09,
+        1.0,
+        0.0,
+        1.457834243774414,
+        -28.755844116210938,
+        147.6448211669922,
+        1.0
+      ],
+      "name": "MSH_Conector"
+    },
+    {
+      "children": [
+        8
+      ],
+      "matrix": [
+        0.8135708525017137,
+        0.28046261501689906,
+        0.5093556611421115,
+        0.0,
+        -0.3259085678392314,
+        0.9454012933188641,
+        -1.490116160956994e-08,
+        0.0,
+        -0.481545504982256,
+        -0.16600336192047965,
+        0.8605561053542542,
+        0.0,
+        16.193593978881836,
+        -76.38240051269531,
+        -147.6448211669922,
+        1.0
+      ],
+      "name": "Object_7"
+    },
+    {
+      "mesh": 1,
+      "name": "MSH_Conector_MAT_Cable_0"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    }
+  ]
+}

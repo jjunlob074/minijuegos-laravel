@@ -1,0 +1,11 @@
+Model Information:
+* title:	Joystick Nes
+* source:	https://sketchfab.com/3d-models/joystick-nes-08e8cca4cb0f42bdb3cb406af10f8505
+* author:	Mora (https://sketchfab.com/MoraAzul)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Joystick Nes" (https://sketchfab.com/3d-models/joystick-nes-08e8cca4cb0f42bdb3cb406af10f8505) by Mora (https://sketchfab.com/MoraAzul) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
